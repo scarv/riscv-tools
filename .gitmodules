@@ -1,6 +1,6 @@
 [submodule "riscv-isa-sim"]
 	path = riscv-isa-sim
-	url = https://github.com/riscv/riscv-isa-sim.git
+	url = https://github.com/scarv/riscv-isa-sim.git
 [submodule "riscv-fesvr"]
 	path = riscv-fesvr
 	url = https://github.com/riscv/riscv-fesvr.git
@@ -9,13 +9,13 @@
 	url = https://github.com/riscv/riscv-pk.git
 [submodule "riscv-opcodes"]
 	path = riscv-opcodes
-	url = https://github.com/riscv/riscv-opcodes.git
+	url = https://github.com/scarv/riscv-opcodes.git
 [submodule "riscv-tests"]
 	path = riscv-tests
 	url = https://github.com/riscv/riscv-tests.git
 [submodule "riscv-gnu-toolchain"]
 	path = riscv-gnu-toolchain
-	url = https://github.com/riscv/riscv-gnu-toolchain.git
+	url = https://github.com/scarv/riscv-gnu-toolchain.git
 [submodule "riscv-openocd"]
 	path = riscv-openocd
 	url = https://github.com/riscv/riscv-openocd.git
