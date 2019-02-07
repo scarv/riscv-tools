@@ -1,13 +1,13 @@
-riscv-tools [![Build Status](https://travis-ci.org/riscv/riscv-tools.svg?branch=master)](https://travis-ci.org/riscv/riscv-tools)
+riscv-tools [![Build Status](https://travis-ci.org/scarv/riscv-tools.svg?branch=master)](https://travis-ci.org/scarv/riscv-tools)
 ===========================================================================
 
 This repository houses a set of RISC-V simulators, compilers, and other
 tools, including the following projects:
 
-* [Spike](https://github.com/riscv/riscv-isa-sim/), the ISA simulator
+* [Spike](https://github.com/scarv/riscv-isa-sim/), the ISA simulator
 * [riscv-tests](https://github.com/riscv/riscv-tests/), a battery of
 ISA-level tests
-* [riscv-opcodes](https://github.com/riscv/riscv-opcodes/), the
+* [riscv-opcodes](https://github.com/scarv/riscv-opcodes/), the
 enumeration of all RISC-V opcodes executable by the simulator
 * [riscv-pk](https://github.com/riscv/riscv-pk/), which contains `bbl`,
 a boot loader for Linux and similar OS kernels, and `pk`, a proxy kernel that
