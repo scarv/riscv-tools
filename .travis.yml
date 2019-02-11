@@ -52,5 +52,5 @@ install: travis_wait
 # pexpect ends up in /usr/lib/python2.7/dist-packages, which is not part of the
 # default python path.
 script:
-  - ./build.sh
+  - ./build-rv32imaxc.sh
   - PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages make -C riscv-tests/build debug-check
