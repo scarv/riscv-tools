@@ -37,7 +37,7 @@ function build_project {
   echo "Configuring project $PROJECT"
   ../configure $* > build.log
   echo "Building project $PROJECT"
-  $MAKE >> build.log
+  $MAKE -j 4 >> build.log
   echo "Installing project $PROJECT"
   $MAKE install >> build.log
   cd - > /dev/null
